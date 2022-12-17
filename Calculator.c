@@ -10,7 +10,7 @@ int main()
     printf("Enter number 2=");
     scanf("%d",&Num2);
     printf("Enter operator");
-    //_flushall();
+    //_flushall();- This function flushes all the buffer assoc. with i/o stream.
     scanf(" %c",&Operator);
     switch(Operator)
     {
